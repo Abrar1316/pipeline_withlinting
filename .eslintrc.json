@@ -1,6 +1,6 @@
 {
     "root": true,
-    "extends": ["airbnb-base", "plugin:eslint-plugin/recommended","plugin:react/recommended"],
+    "extends": ["airbnb-base", "plugin:eslint-plugin/recommended","plugin:react/recommended","plugin:react/jsx-runtime"],
     "plugins": ["eslint-plugin","react"],
     "parser": "@babel/eslint-parser",
     "env": {
