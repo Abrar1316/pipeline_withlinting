@@ -12,7 +12,8 @@
       "ecmaFeatures": {
         "jsx": true
       },
-      "sourceType": "script"
+      "sourceType": "module",
+      "allowImportExportEverywhere": true
     },
     "ignorePatterns": [
       "coverage/",
