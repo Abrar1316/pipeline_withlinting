@@ -5,7 +5,8 @@
     "parser": "@babel/eslint-parser",
     "env": {
        "es6": true,
-       "node": true
+       "node": true,
+       "browser": true
            },
     "parserOptions": {
       "ecmaVersion": 6,
@@ -25,11 +26,12 @@
     "rules": {
         "react/jsx-uses-vars": "error",
         "react/jsx-uses-react": "error",
-        "comma-dangle": [2, "always-multiline"],
+        "comma-dangle": [2,"always-multiline"],
         "object-shorthand": [2, "always", {
           "ignoreConstructors": false,
           "avoidQuotes": false  
         }],
+        
         "max-len": [2, 120, {
           "ignoreStrings": true,
           "ignoreTemplateLiterals": true,
@@ -57,6 +59,7 @@
         "eslint-plugin/require-meta-schema": 0,
         "eslint-plugin/require-meta-type": 0
     },
+    
     "overrides": [
       {
         "files": [
