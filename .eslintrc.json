@@ -12,6 +12,9 @@
       "ecmaFeatures": {
         "jsx": true
       },
+      "babelOptions": {
+        "presets": ["@babel/preset-react"]
+     },
       "sourceType": "module",
       "allowImportExportEverywhere": true
     },
